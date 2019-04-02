@@ -1,4 +1,4 @@
-public class RecordPlayer extends Stero{
+public class RecordPlayer extends Stero implements IPlay{
 
     private int volume;
     private boolean onOff;
@@ -17,5 +17,9 @@ public class RecordPlayer extends Stero{
     public
     void setSpeed(int speed) {
         this.speed = speed;
+    }
+
+    public String play() {
+        return "Playing";
     }
 }

@@ -1,3 +1,4 @@
-public
-interface IConnect {
+public interface IConnect {
+
+    public String connect(Stero);
 }

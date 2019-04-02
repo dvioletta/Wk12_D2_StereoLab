@@ -58,4 +58,9 @@ public class CDPlayerTest {
         assertEquals(2,cdPlayer.countCds());
     }
 
+    @Test
+    public void canPlay(){
+        assertEquals("Playing", cdPlayer.play());
+    }
+
 }

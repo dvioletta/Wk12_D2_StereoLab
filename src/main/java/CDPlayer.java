@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class CDPlayer extends Stero {
+public class CDPlayer extends Stero implements IPlay {
 
     private int volume;
     private boolean onOff;
@@ -27,5 +27,7 @@ public class CDPlayer extends Stero {
         this.cdCollection.remove(0);
     }
 
-
+    public String play() {
+        return "Playing";
+    }
 }
